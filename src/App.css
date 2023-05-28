@@ -1,0 +1,78 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 18rem;
+}
+
+.email-input,
+.password-input,
+.submit-button {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.email-input {
+    width: 18rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.password-input {
+    width: 18rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.submit-button {
+    padding: 1rem 2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.title {
+    margin: 0;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+}
+
+.logout-button {
+    padding: 10px;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
