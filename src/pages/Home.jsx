@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
-import Navbar from "../components/Navbar"
+import React from 'react';
+import Navbar from "../components/Navbar";
 import '../App.css';
+import VoteSurvey from './VoteSurvey';
 
-export default class Home extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
-                <h1>Welcome Your Home</h1>
+const Home = () => {
+    return (
+        <>
+            <Navbar />
+            <VoteSurvey />
+            <h1>Welcome to Your Home</h1>
+        </>
+    );
+};
 
-            </>
-        )
-    }
-}
+export default Home;
